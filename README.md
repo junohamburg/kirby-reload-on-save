@@ -4,6 +4,8 @@ This plugin for Kirby 3 automatically reloads the frontend when content changes 
 
 It uses the Broadcast Channel API to communicate between panel and frontend. There is no build tool or `npm install` necessary, so the plugin can be used both in your local development and your production environment.
 
+https://user-images.githubusercontent.com/77532479/236817730-0ff50b47-2d02-409d-952e-8368de379899.mp4
+
 Clicking "Save" or using CMD+S / CTRL+S saves the content and reloads the frontend.
 
 ## Installation
