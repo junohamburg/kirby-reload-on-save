@@ -1,0 +1,16 @@
+{
+  "name": "junohamburg/kirby-reload-on-save",
+  "description": "Kirby Reload On Save",
+  "license": "MIT",
+  "type": "kirby-plugin",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "JUNO",
+      "email": "github@juno-hamburg.com"
+    }
+  ],
+  "require": {
+    "getkirby/composer-installer": "^1.1"
+  }
+}
