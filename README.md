@@ -2,7 +2,7 @@
 
 This plugin for Kirby 3 automatically reloads the frontend when content changes are saved in the panel.
 
-It uses the Broadcast Channel API to communicate between panel and frontend. There is no build tool or `npm install` necessary, so the plugin can be used both in your local development and your production environment.
+It uses the [Broadcast Channel API](https://developer.mozilla.org/en-US/docs/Web/API/Broadcast_Channel_API) to communicate between panel and frontend. There is no build tool or `npm install` necessary, so the plugin can be used both in your local development and your production environment.
 
 https://user-images.githubusercontent.com/77532479/236821149-3d9ac36a-29f6-4fc2-83f7-d38ccdbb367b.mp4
 
