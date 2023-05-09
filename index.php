@@ -9,7 +9,10 @@ Kirby::plugin('junohamburg/reload-on-save', [
   ],
   'hooks' => [
     'page.render:after' => function ($contentType, $data, $html, $page) {
-      $html = str_replace('</head>', snippet('reload-on-save/client', [], true) . '</head>', $html);
+      if ($contentType === 'html') {
+        $html = str_replace('</head>', snippet('reload-on-save/client', [], true) . '</head>', $html);
+      }
+
       return $html;
     }
   ]
