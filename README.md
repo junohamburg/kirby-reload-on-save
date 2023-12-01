@@ -14,16 +14,16 @@ Clicking "Save" or using CMD+S / CTRL+S saves the content and reloads the fronte
 
 Download and copy this repository to `/site/plugins/kirby-reload-on-save`.
 
-### Git submodule
-
-```
-git submodule add https://github.com/junohamburg/kirby-reload-on-save.git site/plugins/kirby-reload-on-save
-```
-
 ### Composer
 
 ```
 composer require junohamburg/kirby-reload-on-save
+```
+
+### Git submodule
+
+```
+git submodule add https://github.com/junohamburg/kirby-reload-on-save.git site/plugins/kirby-reload-on-save
 ```
 
 ## Setup
