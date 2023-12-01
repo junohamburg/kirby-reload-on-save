@@ -4,7 +4,7 @@ This plugin for Kirby 3 and Kirby 4 automatically reloads the frontend when cont
 
 It uses the [Broadcast Channel API](https://developer.mozilla.org/en-US/docs/Web/API/Broadcast_Channel_API) to communicate between panel and frontend. There is no build tool or `npm install` necessary, so the plugin can be used both in your local development and your production environment.
 
-https://user-images.githubusercontent.com/77532479/236821149-3d9ac36a-29f6-4fc2-83f7-d38ccdbb367b.mp4
+https://github.com/junohamburg/kirby-reload-on-save/assets/77532479/769d44b9-cdd7-47f7-b1f0-b4c260393cfd
 
 Clicking "Save" or using CMD+S / CTRL+S saves the content and reloads the frontend.
 
