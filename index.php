@@ -1,5 +1,7 @@
 <?php
 
+use Kirby\Cms\App as Kirby;
+
 Kirby::plugin('junohamburg/reload-on-save', [
   'options' => [
     'active' => false
